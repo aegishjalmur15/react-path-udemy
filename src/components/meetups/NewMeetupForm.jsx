@@ -13,6 +13,10 @@ function NewMeetupForm(){
                 <label htmlFor="image">Meetup image</label>
                 <input type="url" required id="image"/>
             </div>
+            <div className={styles.control}>
+                <label htmlFor="image">Meetup image</label>
+                <input type="url" required id="image"/>
+            </div>
         </form>
     </Card>
 }
